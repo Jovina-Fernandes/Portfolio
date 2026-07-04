@@ -53,7 +53,7 @@ contactForm.addEventListener("submit", async (e) => {
   const message = document.getElementById("message").value;
 
   try {
-    const response = await fetch("http://localhost:5000/contact", {
+    const response = await fetch("https://portfolio-backend-j8vg.onrender.com/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
